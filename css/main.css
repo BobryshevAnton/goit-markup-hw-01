@@ -43,57 +43,82 @@ color: #212121;
    font-family: 'Roboto';
    font-weight: 700;
 }*/
+:root {
+   --primary-text-color: #757575;
+   --title-text-color: #212121;
+   --accent-color: #2196F3;
+   --accent-white-color: #F5F4FA;
+}
+
 
 ul {
    list-style: none;
 }
 
 .page {
-   color: #757575;
+   color: var(--primary-text-color)
+      /*#757575*/
+   ;
    font-family: 'Roboto';
    background-color: #E5E5E5;
 }
 
 /* стиль Logo*/
 .logo {
-   color: #212121;
+   color: var(--title-text-color)
+      /*#212121*/
+   ;
    text-decoration: none;
 }
 
 .logo:hover,
 .logo:active,
 .logo:focus {
-   color: #757575;
+   color: var(--primary-text-color)
+      /*#757575*/
+   ;
 }
 
 /* стиль site-nav*/
 .site-nav .link {
-   color: #212121;
+   color: var(--title-text-color)
+      /*#212121*/
+   ;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-   color: #2196F3;
+   color: var(--accent-color)
+      /*#2196F3*/
+   ;
 }
 
 /* стиль info*/
 .mail {
-   color: #2196F3;
+   color: var(--accent-color)
+      /*#2196F3*/
+   ;
 }
 
 .mail:hover,
 .mail:focus {
-   color: #212121;
+   color: var(--title-text-color)
+      /*#212121*/
+   ;
 }
 
 .tel {
-   color: #757575;
+   color: var(--primary-text-color)
+      /*#757575*/
+   ;
    text-decoration: none;
 }
 
 .tel:hover,
 .tel:focus {
-   color: #212121;
+   color: var(--title-text-color)
+      /*#212121*/
+   ;
 }
 
 /* стиль Герой*/
@@ -103,36 +128,65 @@ ul {
 
 /* стиль Особливості*/
 .section {
-   color: #757575;
+   color: var(--primary-text-color)
+      /*#757575*/
+   ;
 }
 
 .section .section-title {
-   color: #212121;
+   color: var(--title-text-color)
+      /*#212121*/
+   ;
 }
 
 .section .section-subtitle {
-   color: #212121;
+   color: var(--title-text-color)
+      /*#212121*/
+   ;
 }
 
 .section .section-text {
-   color: #757575;
+   color: var(--primary-text-color)
+      /*#757575*/
+   ;
 }
 
 /* стиль Команда*/
 .section .section-name {
-   color: #212121;
+   color: var(--title-text-color)
+      /*#212121*/
+   ;
 }
 
 .section .section-position {
-   color: #757575;
+   color: var(--primary-text-color)
+      /*#757575*/
+   ;
 }
 
 /* стиль Футер*/
 .footer {
-   color: #212121;
+   color: var(--title-text-color)
+      /*#212121*/
+   ;
 }
 
 .footer .address {
    color: #FFFFFF;
    text-decoration: none;
 }
+
+/* стиль Головної кнопки та кнопок на другій страниці*/
+.button {
+   background-color: var(--accent-color);
+   color: #FFFFFF;
+}
+
+/*.button .primary {
+   background-color: var(--accent-white-color);
+   color: var(--title-text-color);
+}
+.button .econdary{
+   background-color: var(--accent-color);
+   color: var(--title-text-color);
+}*/
