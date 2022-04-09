@@ -79,6 +79,7 @@ ul {
    ;
 }
 
+
 /* стиль site-nav*/
 .site-nav .link {
    color: var(--title-text-color)
@@ -91,6 +92,10 @@ ul {
    color: var(--accent-color)
       /*#2196F3*/
    ;
+}
+
+.site-nav .link:current {
+   color: red;
 }
 
 /* стиль info*/
