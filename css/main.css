@@ -1,0 +1,138 @@
+/*
+колір хедера #FFFFFF;
+колір Героя background: #2F303A;
++ колшір основного фону background: background: #E5E5E5;
+колір Наша командаbackground: #F5F4FA;
+колір футера background: #F5F4FA;
+колір 
+*/
+/*Кнопка на Герої background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;*/
+
+/*Хедер
+колір h1 color: #FFFFFF;
+колір web studio синій color: #2196F3;
+колір web studio чорний color: #212121;
+колір ссилок в хедері color: #212121;
+колір адреси веб color: #2196F3;
+колір номеру телефона color: #757575;
+*/
+
+/* Main
+колір букв h2 color: #212121;
+колір букв Р color: #757575;
+color: #212121;
+
+/* наша команда
+колір h2 color: #212121;
+колір h3 color: #212121;
+колір p color: #757575;
+
+/* Футер
+колір бекграунду background: #2F303A;
+колір вебстудіі білий color: #FFFFFF;;
+колір вебстудіі синій color: #2196F3;
+колір адреси color білий: #FFFFFF;
+колір телефону та майл color білий: #FFFFFF; з прозрачністю 0,6
+
+*/
+/* стиль body
+.style-body {
+   background: #E5E5E5;
+   font-family: 'Roboto';
+   font-weight: 700;
+}*/
+
+ul {
+   list-style: none;
+}
+
+.page {
+   color: #757575;
+   font-family: 'Roboto';
+   background-color: #E5E5E5;
+}
+
+/* стиль Logo*/
+.logo {
+   color: #212121;
+   text-decoration: none;
+}
+
+.logo:hover,
+.logo:active,
+.logo:focus {
+   color: #757575;
+}
+
+/* стиль site-nav*/
+.site-nav .link {
+   color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+   color: #2196F3;
+}
+
+/* стиль info*/
+.mail {
+   color: #2196F3;
+}
+
+.mail:hover,
+.mail:focus {
+   color: #212121;
+}
+
+.tel {
+   color: #757575;
+   text-decoration: none;
+}
+
+.tel:hover,
+.tel:focus {
+   color: #212121;
+}
+
+/* стиль Герой*/
+.hero .hero-title {
+   color: #FFFFFF;
+}
+
+/* стиль Особливості*/
+.section {
+   color: #757575;
+}
+
+.section .section-title {
+   color: #212121;
+}
+
+.section .section-subtitle {
+   color: #212121;
+}
+
+.section .section-text {
+   color: #757575;
+}
+
+/* стиль Команда*/
+.section .section-name {
+   color: #212121;
+}
+
+.section .section-position {
+   color: #757575;
+}
+
+/* стиль Футер*/
+.footer {
+   color: #212121;
+}
+
+.footer .address {
+   color: #FFFFFF;
+   text-decoration: none;
+}
