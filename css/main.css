@@ -15,6 +15,7 @@ ul {
    background-color: #E5E5E5;
 
    font-family: "Roboto", serif;
+   font-style: normal;
    font-weight: 400;
    font-size: 14px;
    line-height: 1.7;
@@ -149,7 +150,6 @@ ul {
 .address-footer {
    color: #FFFFFF;
    text-decoration: none;
-   font-style: normal;
 }
 
 .mail-footer {
@@ -186,23 +186,21 @@ ul {
    color: var(--title-text-color);
 }
 
+.button {
+   cursor: pointer;
+}
+
 /* стиль Другої страниці*/
 
 .content .caption {
-   color: var(--title-text-color)
-      /*#212121*/
-   ;
+   color: var(--title-text-color);
 }
 
 .content .caption-title {
-   color: var(--title-text-color)
-      /*#212121*/
-   ;
+   color: var(--title-text-color);
 }
 
 .content .caption-text {
-   color: #FFFFFF
-      /*???????*/
    ;
 }
 
