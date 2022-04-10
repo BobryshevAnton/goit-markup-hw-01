@@ -1,55 +1,10 @@
-/*
-колір хедера #FFFFFF;
-колір Героя background: #2F303A;
-+ колшір основного фону background: background: #E5E5E5;
-колір Наша командаbackground: #F5F4FA;
-колір футера background: #F5F4FA;
-колір 
-*/
-/*Кнопка на Герої background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;*/
-
-/*Хедер
-колір h1 color: #FFFFFF;
-колір web studio синій color: #2196F3;
-колір web studio чорний color: #212121;
-колір ссилок в хедері color: #212121;
-колір адреси веб color: #2196F3;
-колір номеру телефона color: #757575;
-*/
-
-/* Main
-колір букв h2 color: #212121;
-колір букв Р color: #757575;
-color: #212121;
-
-/* наша команда
-колір h2 color: #212121;
-колір h3 color: #212121;
-колір p color: #757575;
-
-/* Футер
-колір бекграунду background: #2F303A;
-колір вебстудіі білий color: #FFFFFF;;
-колір вебстудіі синій color: #2196F3;
-колір адреси color білий: #FFFFFF;
-колір телефону та майл color білий: #FFFFFF; з прозрачністю 0,6
-
-*/
-/* стиль body
-.style-body {
-   background: #E5E5E5;
-   font-family: 'Roboto';
-   font-weight: 700;
-}*/
 :root {
    --primary-text-color: #757575;
    --title-text-color: #212121;
    --accent-color: #2196F3;
    --accent-white-color: #F5F4FA;
+   --footer-color: rgba(255, 255, 255, 0.6)
 }
-
 
 ul {
    list-style: none;
@@ -59,7 +14,7 @@ ul {
    color: var(--primary-text-color);
    background-color: #E5E5E5;
 
-   font-family: 'Roboto', sans-serif;
+   font-family: "Roboto", serif;
    font-weight: 400;
    font-size: 14px;
    line-height: 1.7;
@@ -71,7 +26,7 @@ ul {
    color: var(--title-text-color);
    text-decoration: none;
 
-   font-family: 'Raleway', serif;
+   font-family: "Raleway", sans-serif;
    font-weight: 700;
    font-size: 26px;
    line-height: 1.17;
@@ -80,127 +35,150 @@ ul {
 .logo:hover,
 .logo:active,
 .logo:focus {
-   color: var(--primary-text-color)
-      /*#757575*/
-   ;
+   color: var(--primary-text-color);
 }
 
 
 /* стиль хедера*/
-.style-nav .link {
-   font-style: 900;
-   line-height: 1.14;
-   letter-spacing: 0.02;
-}
+.header {
+   font-weight: 500;
+   line-height: 1.17;
+   letter-spacing: 0.02em;
 
+}
 
 .style-nav .link {
    color: var(--title-text-color);
 }
 
-
 .style-nav .link:hover,
 .style-nav .link:focus {
-   color: var(--accent-color)
-      /*#2196F3*/
-   ;
+   color: var(--accent-color);
 }
 
 /*НЕ ЗАЛИШАЄТЬСЯ ПІДСВІЧЕННИМ!!!!*/
 .site-nav .link.current {
-   color: var(--accent-color)
-      /*#2196F3*/
-   ;
+   color: var(--accent-color);
 }
-
 
 /* стиль info*/
 .mail {
-   color: var(--accent-color)
-      /*#2196F3*/
-   ;
+   color: var(--accent-color);
 }
 
 .mail:hover,
 .mail:focus {
-   color: var(--title-text-color)
-      /*#212121*/
-   ;
+   color: var(--title-text-color);
 }
 
 .tel {
-   color: var(--primary-text-color)
-      /*#757575*/
-   ;
+   color: var(--primary-text-color);
    text-decoration: none;
 }
 
 .tel:hover,
 .tel:focus {
-   color: var(--title-text-color)
-      /*#212121*/
-   ;
+   color: var(--title-text-color);
 }
 
 /* стиль Герой*/
+.hero-title {
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   letter-spacing: 0.06em;
+
+}
+
 .hero .hero-title {
    color: #FFFFFF;
 }
 
 /* стиль Особливості*/
 .section {
-   color: var(--primary-text-color)
-      /*#757575*/
-   ;
+   color: var(--primary-text-color);
+}
+
+.section-title {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.16;
+}
+
+.section-subtitle {
+   font-weight: 700;
+   line-height: 1.14;
+}
+
+.section-name {
+   font-weight: 500;
+   line-height: 1.18;
+}
+
+.section-position {
+   font-size: 16px;
+   line-height: 1.18;
 }
 
 .section .section-title {
-   color: var(--title-text-color)
-      /*#212121*/
-   ;
+   color: var(--title-text-color);
 }
 
 .section .section-subtitle {
-   color: var(--title-text-color)
-      /*#212121*/
-   ;
+   color: var(--title-text-color);
 }
 
 .section .section-text {
-   color: var(--primary-text-color)
-      /*#757575*/
-   ;
+   color: var(--primary-text-color);
 }
 
 /* стиль Команда*/
 .section .section-name {
-   color: var(--title-text-color)
-      /*#212121*/
-   ;
+   color: var(--title-text-color);
 }
 
 .section .section-position {
-   color: var(--primary-text-color)
-      /*#757575*/
-   ;
+   color: var(--primary-text-color);
 }
 
-/* стиль Футер*/
+/* стиль Футеру*/
 .footer {
-   color: var(--title-text-color)
-      /*#212121*/
-   ;
+   color: var(--title-text-color);
 }
 
-.footer .address {
+.address-footer {
    color: #FFFFFF;
    text-decoration: none;
+   font-style: normal;
+}
+
+.mail-footer {
+   color: var(--footer-color);
+}
+
+.mail-footer:hover,
+.mail-footer:focus {
+   color: var(--title-text-color);
+}
+
+.tel-footer {
+   color: var(--footer-color);
+   text-decoration: none;
+}
+
+.tel-footer:hover,
+.tel-footer:focus {
+   color: var(--title-text-color);
 }
 
 /* стиль Головної кнопки та кнопок на другій страниці*/
 .button {
    background-color: var(--accent-color);
    color: #FFFFFF;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.85;
+   letter-spacing: 0.06em;
 }
 
 .button:hover {
@@ -227,9 +205,6 @@ ul {
       /*???????*/
    ;
 }
-
-
-
 
 /* це для кнопок!!!   cursor: pointer*/
 
