@@ -56,19 +56,25 @@ ul {
 }
 
 .page {
-   color: var(--primary-text-color)
-      /*#757575*/
-   ;
-   font-family: 'Roboto';
+   color: var(--primary-text-color);
    background-color: #E5E5E5;
+
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
 }
 
 /* стиль Logo*/
 .logo {
-   color: var(--title-text-color)
-      /*#212121*/
-   ;
+   color: var(--title-text-color);
    text-decoration: none;
+
+   font-family: 'Raleway', serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.17;
 }
 
 .logo:hover,
@@ -80,23 +86,33 @@ ul {
 }
 
 
-/* стиль site-nav*/
-.site-nav .link {
-   color: var(--title-text-color)
-      /*#212121*/
-   ;
+/* стиль хедера*/
+.style-nav .link {
+   font-style: 900;
+   line-height: 1.14;
+   letter-spacing: 0.02;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+
+.style-nav .link {
+   color: var(--title-text-color);
+}
+
+
+.style-nav .link:hover,
+.style-nav .link:focus {
    color: var(--accent-color)
       /*#2196F3*/
    ;
 }
 
-.site-nav .link:current {
-   color: red;
+/*НЕ ЗАЛИШАЄТЬСЯ ПІДСВІЧЕННИМ!!!!*/
+.site-nav .link.current {
+   color: var(--accent-color)
+      /*#2196F3*/
+   ;
 }
+
 
 /* стиль info*/
 .mail {
@@ -187,11 +203,48 @@ ul {
    color: #FFFFFF;
 }
 
-/*.button .primary {
+.button:hover {
+   background-color: var(---accent-white-color);
+   color: var(--title-text-color);
+}
+
+/* стиль Другої страниці*/
+
+.content .caption {
+   color: var(--title-text-color)
+      /*#212121*/
+   ;
+}
+
+.content .caption-title {
+   color: var(--title-text-color)
+      /*#212121*/
+   ;
+}
+
+.content .caption-text {
+   color: #FFFFFF
+      /*???????*/
+   ;
+}
+
+
+
+
+/* це для кнопок!!!   cursor: pointer*/
+
+.button .primary {
    background-color: var(--accent-white-color);
    color: var(--title-text-color);
 }
-.button .econdary{
-   background-color: var(--accent-color);
+
+.button-secondary {
+   background-color: var(--accent-white-color);
    color: var(--title-text-color);
-}*/
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+   background-color: var(--accent-color);
+   color: #FFFFFF;
+}
