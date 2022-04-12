@@ -179,6 +179,7 @@ ul {
    font-size: 16px;
    line-height: 1.85;
    letter-spacing: 0.06em;
+   cursor: pointer;
 }
 
 .button:hover {
@@ -186,9 +187,9 @@ ul {
    color: var(--title-text-color);
 }
 
-.button {
+/*.button {
    cursor: pointer;
-}
+}*/
 
 /* стиль Другої страниці*/
 
@@ -220,4 +221,8 @@ ul {
 .button-secondary:focus {
    background-color: var(--accent-color);
    color: #FFFFFF;
+}
+
+.current {
+   color: var(--accent-color)
 }
