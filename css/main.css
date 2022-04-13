@@ -4,7 +4,7 @@
    --accent-color: #2196F3;
    --accent-white-color: #F5F4FA;
    --footer-color: rgba(255, 255, 255, 0.6);
-   --primary-white-color: #E5E5E5;
+   --primary-white-color: #fff;
    --secondary-grey-color: #2F303A;
 }
 
@@ -62,11 +62,12 @@ ul {
    color: var(--primary-white-color);
 }
 
+/*
 .logo:hover,
 .logo:active,
 .logo:focus {
    color: var(--primary-text-color);
-}
+}*/
 
 .link.current {
    color: var(--accent-color);
@@ -99,6 +100,7 @@ ul {
 }
 
 .hero-title {
+   text-transform: uppercase;
    font-weight: 900;
    font-size: 44px;
    line-height: 1.36;
@@ -126,6 +128,7 @@ ul {
 }
 
 .section-subtitle {
+   text-transform: uppercase;
    font-weight: 700;
    line-height: 1.14;
 }
@@ -164,33 +167,25 @@ ul {
 /* стиль Футеру*/
 .footer {
    color: var(--title-text-color);
-
+   text-decoration: none;
    background-color: #2F303A;
 }
 
-.address-footer {
+.footer .address {
    color: #FFFFFF;
-   text-decoration: none;
    font-style: normal;
 }
 
 .mail-footer {
-   color: var(--footer-color);
-}
-
-.mail-footer:hover,
-.mail-footer:focus {
-   color: var(--title-text-color);
+   color: rgba(255, 255, 255, 0.6);
+   text-decoration: none;
+   font-style: normal;
 }
 
 .tel-footer {
-   color: var(--footer-color);
+   color: rgba(255, 255, 255, 0.6);
    text-decoration: none;
-}
-
-.tel-footer:hover,
-.tel-footer:focus {
-   color: var(--title-text-color);
+   font-style: normal;
 }
 
 /* стиль Головної кнопки та кнопок на другій страниці*/
@@ -218,9 +213,6 @@ ul {
    color: var(--title-text-color);
 }
 
-.content .caption-text {
-   ;
-}
 
 /* це для кнопок!!!   cursor: pointer*/
 
